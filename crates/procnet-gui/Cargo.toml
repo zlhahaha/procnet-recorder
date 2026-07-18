@@ -1,0 +1,19 @@
+[package]
+name = "procnet-gui"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+eframe = { version = "0.35.0", default-features = false, features = ["__screenshot", "default_fonts", "glow"] }
+egui_plot = "0.36.0"
+png = "0.18.1"
+procnet-application = { path = "../procnet-application" }
+procnet-core = { path = "../procnet-core" }
+procnet-storage = { path = "../procnet-storage" }
+procnet-windows = { path = "../procnet-windows" }
+
+[lints]
+workspace = true

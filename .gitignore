@@ -1,0 +1,33 @@
+# Rust build output
+/target/
+/target-release-check/
+
+# Local runtime data and exports
+/tmp/
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.tmp
+
+# Local tools and editors
+/.agents/
+/.codex/
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Planning, reports, screenshots, and validation history
+/PLAN.md
+/plan.pdf
+/docs/validation/
+/docs/report/
+/docs/test-plan.md
+/docs/user/
+/docs/demo/
+
+# Keep only reusable release scripts
+/scripts/*
+!/scripts/check.ps1
+!/scripts/demo-risk-traffic.ps1

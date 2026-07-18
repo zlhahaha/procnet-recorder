@@ -1,0 +1,15 @@
+[package]
+name = "procnet-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+procnet-application = { path = "../procnet-application" }
+procnet-core = { path = "../procnet-core" }
+procnet-windows = { path = "../procnet-windows" }
+
+[lints]
+workspace = true
